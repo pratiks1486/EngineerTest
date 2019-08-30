@@ -12,6 +12,33 @@
 		13D2296523196FE600B9549B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D2296323196FE600B9549B /* Main.storyboard */; };
 		13D2296723196FEA00B9549B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D2296623196FEA00B9549B /* Assets.xcassets */; };
 		13D2296A23196FEA00B9549B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D2296823196FEA00B9549B /* LaunchScreen.storyboard */; };
+		DA433F2F2319843C0002DC48 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F2E2319843C0002DC48 /* PostCell.swift */; };
+		DA433F31231984B60002DC48 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F30231984B60002DC48 /* NetworkLayer.swift */; };
+		DA433F51231984EE0002DC48 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F33231984EE0002DC48 /* Reachability.swift */; };
+		DA433F52231984EE0002DC48 /* CRRefreshAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F35231984EE0002DC48 /* CRRefreshAnimator.swift */; };
+		DA433F53231984EE0002DC48 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F36231984EE0002DC48 /* UIColorExtension.swift */; };
+		DA433F54231984EE0002DC48 /* RamotionBounceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F39231984EE0002DC48 /* RamotionBounceLayer.swift */; };
+		DA433F55231984EE0002DC48 /* RamotionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F3A231984EE0002DC48 /* RamotionAnimator.swift */; };
+		DA433F56231984EE0002DC48 /* RamotionWaveLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F3B231984EE0002DC48 /* RamotionWaveLayer.swift */; };
+		DA433F57231984EE0002DC48 /* RamotionBallLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F3C231984EE0002DC48 /* RamotionBallLayer.swift */; };
+		DA433F58231984EE0002DC48 /* SlackLoadingAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F3E231984EE0002DC48 /* SlackLoadingAnimator.swift */; };
+		DA433F59231984EE0002DC48 /* WCLLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F3F231984EE0002DC48 /* WCLLoadingView.swift */; };
+		DA433F5A231984EE0002DC48 /* FastAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F41231984EE0002DC48 /* FastAnimator.swift */; };
+		DA433F5B231984EE0002DC48 /* FastLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F42231984EE0002DC48 /* FastLayer.swift */; };
+		DA433F5C231984EE0002DC48 /* FastArrowLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F43231984EE0002DC48 /* FastArrowLayer.swift */; };
+		DA433F5D231984EE0002DC48 /* FastCheckLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F44231984EE0002DC48 /* FastCheckLayer.swift */; };
+		DA433F5E231984EE0002DC48 /* FastCircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F45231984EE0002DC48 /* FastCircleLayer.swift */; };
+		DA433F5F231984EE0002DC48 /* NormalHeader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DA433F47231984EE0002DC48 /* NormalHeader.bundle */; };
+		DA433F60231984EE0002DC48 /* NormalHeaderAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F48231984EE0002DC48 /* NormalHeaderAnimator.swift */; };
+		DA433F61231984EE0002DC48 /* NormalFooterAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F49231984EE0002DC48 /* NormalFooterAnimator.swift */; };
+		DA433F62231984EE0002DC48 /* NormalFooter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DA433F4A231984EE0002DC48 /* NormalFooter.bundle */; };
+		DA433F63231984EE0002DC48 /* CRRefreshBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F4B231984EE0002DC48 /* CRRefreshBundle.swift */; };
+		DA433F64231984EE0002DC48 /* CRRefreshHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F4C231984EE0002DC48 /* CRRefreshHeaderView.swift */; };
+		DA433F65231984EE0002DC48 /* CRRefreshExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F4D231984EE0002DC48 /* CRRefreshExtension.swift */; };
+		DA433F66231984EE0002DC48 /* CRRefreshProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F4E231984EE0002DC48 /* CRRefreshProtocol.swift */; };
+		DA433F67231984EE0002DC48 /* CRRefreshComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F4F231984EE0002DC48 /* CRRefreshComponent.swift */; };
+		DA433F68231984EE0002DC48 /* CRRefreshFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F50231984EE0002DC48 /* CRRefreshFooterView.swift */; };
+		DA433F6A231985000002DC48 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA433F69231985000002DC48 /* DataModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +49,33 @@
 		13D2296623196FEA00B9549B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13D2296923196FEA00B9549B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13D2296B23196FEA00B9549B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA433F2E2319843C0002DC48 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		DA433F30231984B60002DC48 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		DA433F33231984EE0002DC48 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		DA433F35231984EE0002DC48 /* CRRefreshAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshAnimator.swift; sourceTree = "<group>"; };
+		DA433F36231984EE0002DC48 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		DA433F39231984EE0002DC48 /* RamotionBounceLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamotionBounceLayer.swift; sourceTree = "<group>"; };
+		DA433F3A231984EE0002DC48 /* RamotionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamotionAnimator.swift; sourceTree = "<group>"; };
+		DA433F3B231984EE0002DC48 /* RamotionWaveLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamotionWaveLayer.swift; sourceTree = "<group>"; };
+		DA433F3C231984EE0002DC48 /* RamotionBallLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamotionBallLayer.swift; sourceTree = "<group>"; };
+		DA433F3E231984EE0002DC48 /* SlackLoadingAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlackLoadingAnimator.swift; sourceTree = "<group>"; };
+		DA433F3F231984EE0002DC48 /* WCLLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLLoadingView.swift; sourceTree = "<group>"; };
+		DA433F41231984EE0002DC48 /* FastAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastAnimator.swift; sourceTree = "<group>"; };
+		DA433F42231984EE0002DC48 /* FastLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastLayer.swift; sourceTree = "<group>"; };
+		DA433F43231984EE0002DC48 /* FastArrowLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastArrowLayer.swift; sourceTree = "<group>"; };
+		DA433F44231984EE0002DC48 /* FastCheckLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastCheckLayer.swift; sourceTree = "<group>"; };
+		DA433F45231984EE0002DC48 /* FastCircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastCircleLayer.swift; sourceTree = "<group>"; };
+		DA433F47231984EE0002DC48 /* NormalHeader.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NormalHeader.bundle; sourceTree = "<group>"; };
+		DA433F48231984EE0002DC48 /* NormalHeaderAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalHeaderAnimator.swift; sourceTree = "<group>"; };
+		DA433F49231984EE0002DC48 /* NormalFooterAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalFooterAnimator.swift; sourceTree = "<group>"; };
+		DA433F4A231984EE0002DC48 /* NormalFooter.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NormalFooter.bundle; sourceTree = "<group>"; };
+		DA433F4B231984EE0002DC48 /* CRRefreshBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshBundle.swift; sourceTree = "<group>"; };
+		DA433F4C231984EE0002DC48 /* CRRefreshHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshHeaderView.swift; sourceTree = "<group>"; };
+		DA433F4D231984EE0002DC48 /* CRRefreshExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshExtension.swift; sourceTree = "<group>"; };
+		DA433F4E231984EE0002DC48 /* CRRefreshProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshProtocol.swift; sourceTree = "<group>"; };
+		DA433F4F231984EE0002DC48 /* CRRefreshComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshComponent.swift; sourceTree = "<group>"; };
+		DA433F50231984EE0002DC48 /* CRRefreshFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshFooterView.swift; sourceTree = "<group>"; };
+		DA433F69231985000002DC48 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +109,96 @@
 			isa = PBXGroup;
 			children = (
 				13D2295F23196FE600B9549B /* AppDelegate.swift */,
-				13D2296123196FE600B9549B /* ViewController.swift */,
 				13D2296323196FE600B9549B /* Main.storyboard */,
 				13D2296623196FEA00B9549B /* Assets.xcassets */,
 				13D2296823196FEA00B9549B /* LaunchScreen.storyboard */,
 				13D2296B23196FEA00B9549B /* Info.plist */,
+				DA433F30231984B60002DC48 /* NetworkLayer.swift */,
+				DA433F69231985000002DC48 /* DataModels.swift */,
+				13D2296123196FE600B9549B /* ViewController.swift */,
+				DA433F2E2319843C0002DC48 /* PostCell.swift */,
+				DA433F32231984EE0002DC48 /* Libraries */,
 			);
 			path = Engineer;
+			sourceTree = "<group>";
+		};
+		DA433F32231984EE0002DC48 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				DA433F33231984EE0002DC48 /* Reachability.swift */,
+				DA433F34231984EE0002DC48 /* CRRefresh */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		DA433F34231984EE0002DC48 /* CRRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				DA433F35231984EE0002DC48 /* CRRefreshAnimator.swift */,
+				DA433F36231984EE0002DC48 /* UIColorExtension.swift */,
+				DA433F37231984EE0002DC48 /* Animators */,
+				DA433F4B231984EE0002DC48 /* CRRefreshBundle.swift */,
+				DA433F4C231984EE0002DC48 /* CRRefreshHeaderView.swift */,
+				DA433F4D231984EE0002DC48 /* CRRefreshExtension.swift */,
+				DA433F4E231984EE0002DC48 /* CRRefreshProtocol.swift */,
+				DA433F4F231984EE0002DC48 /* CRRefreshComponent.swift */,
+				DA433F50231984EE0002DC48 /* CRRefreshFooterView.swift */,
+			);
+			path = CRRefresh;
+			sourceTree = "<group>";
+		};
+		DA433F37231984EE0002DC48 /* Animators */ = {
+			isa = PBXGroup;
+			children = (
+				DA433F38231984EE0002DC48 /* RamotionAnimator */,
+				DA433F3D231984EE0002DC48 /* SlackLoadingAnimator */,
+				DA433F40231984EE0002DC48 /* FastAnimator */,
+				DA433F46231984EE0002DC48 /* NormalAnimator */,
+			);
+			path = Animators;
+			sourceTree = "<group>";
+		};
+		DA433F38231984EE0002DC48 /* RamotionAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				DA433F39231984EE0002DC48 /* RamotionBounceLayer.swift */,
+				DA433F3A231984EE0002DC48 /* RamotionAnimator.swift */,
+				DA433F3B231984EE0002DC48 /* RamotionWaveLayer.swift */,
+				DA433F3C231984EE0002DC48 /* RamotionBallLayer.swift */,
+			);
+			path = RamotionAnimator;
+			sourceTree = "<group>";
+		};
+		DA433F3D231984EE0002DC48 /* SlackLoadingAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				DA433F3E231984EE0002DC48 /* SlackLoadingAnimator.swift */,
+				DA433F3F231984EE0002DC48 /* WCLLoadingView.swift */,
+			);
+			path = SlackLoadingAnimator;
+			sourceTree = "<group>";
+		};
+		DA433F40231984EE0002DC48 /* FastAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				DA433F41231984EE0002DC48 /* FastAnimator.swift */,
+				DA433F42231984EE0002DC48 /* FastLayer.swift */,
+				DA433F43231984EE0002DC48 /* FastArrowLayer.swift */,
+				DA433F44231984EE0002DC48 /* FastCheckLayer.swift */,
+				DA433F45231984EE0002DC48 /* FastCircleLayer.swift */,
+			);
+			path = FastAnimator;
+			sourceTree = "<group>";
+		};
+		DA433F46231984EE0002DC48 /* NormalAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				DA433F47231984EE0002DC48 /* NormalHeader.bundle */,
+				DA433F48231984EE0002DC48 /* NormalHeaderAnimator.swift */,
+				DA433F49231984EE0002DC48 /* NormalFooterAnimator.swift */,
+				DA433F4A231984EE0002DC48 /* NormalFooter.bundle */,
+			);
+			path = NormalAnimator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +260,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				13D2296A23196FEA00B9549B /* LaunchScreen.storyboard in Resources */,
+				DA433F5F231984EE0002DC48 /* NormalHeader.bundle in Resources */,
 				13D2296723196FEA00B9549B /* Assets.xcassets in Resources */,
+				DA433F62231984EE0002DC48 /* NormalFooter.bundle in Resources */,
 				13D2296523196FE600B9549B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +274,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA433F6A231985000002DC48 /* DataModels.swift in Sources */,
+				DA433F68231984EE0002DC48 /* CRRefreshFooterView.swift in Sources */,
+				DA433F31231984B60002DC48 /* NetworkLayer.swift in Sources */,
+				DA433F56231984EE0002DC48 /* RamotionWaveLayer.swift in Sources */,
+				DA433F53231984EE0002DC48 /* UIColorExtension.swift in Sources */,
+				DA433F5E231984EE0002DC48 /* FastCircleLayer.swift in Sources */,
+				DA433F61231984EE0002DC48 /* NormalFooterAnimator.swift in Sources */,
 				13D2296223196FE600B9549B /* ViewController.swift in Sources */,
+				DA433F58231984EE0002DC48 /* SlackLoadingAnimator.swift in Sources */,
+				DA433F65231984EE0002DC48 /* CRRefreshExtension.swift in Sources */,
+				DA433F66231984EE0002DC48 /* CRRefreshProtocol.swift in Sources */,
+				DA433F5C231984EE0002DC48 /* FastArrowLayer.swift in Sources */,
 				13D2296023196FE600B9549B /* AppDelegate.swift in Sources */,
+				DA433F5A231984EE0002DC48 /* FastAnimator.swift in Sources */,
+				DA433F5B231984EE0002DC48 /* FastLayer.swift in Sources */,
+				DA433F52231984EE0002DC48 /* CRRefreshAnimator.swift in Sources */,
+				DA433F55231984EE0002DC48 /* RamotionAnimator.swift in Sources */,
+				DA433F51231984EE0002DC48 /* Reachability.swift in Sources */,
+				DA433F64231984EE0002DC48 /* CRRefreshHeaderView.swift in Sources */,
+				DA433F57231984EE0002DC48 /* RamotionBallLayer.swift in Sources */,
+				DA433F54231984EE0002DC48 /* RamotionBounceLayer.swift in Sources */,
+				DA433F60231984EE0002DC48 /* NormalHeaderAnimator.swift in Sources */,
+				DA433F67231984EE0002DC48 /* CRRefreshComponent.swift in Sources */,
+				DA433F2F2319843C0002DC48 /* PostCell.swift in Sources */,
+				DA433F63231984EE0002DC48 /* CRRefreshBundle.swift in Sources */,
+				DA433F59231984EE0002DC48 /* WCLLoadingView.swift in Sources */,
+				DA433F5D231984EE0002DC48 /* FastCheckLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
